@@ -17,3 +17,20 @@
 * <ul> - Define uma lista não ordenada.
 * <li> - Define um item de lista.
 * <strong> - Define texto importante.
+
+Body:
+Define a fonte, o espaçamento entre linhas, margens, e o fundo da página.
+Container:
+Define a largura do conteúdo principal e centraliza-o na página.
+Main Header:
+Define o fundo branco, padding, borda azul e alinha o texto ao centro.
+Imagem do Header:
+Define a largura máxima da imagem.
+Text Header:
+Define margens e padding para os textos do cabeçalho.
+Content:
+Define o fundo branco, padding, margens, bordas arredondadas e sombra para as seções de conteúdo.
+Cabeçalhos de Seções:
+Define uma borda inferior azul e padding para os títulos das seções.
+Listas e Itens de Lista:
+Remove a estilização padrão de listas e define margens e padding para itens de lista.
