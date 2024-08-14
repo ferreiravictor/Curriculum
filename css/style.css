@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height:  normal;
+    margin:  5px;
+    padding: 0%;
+    background-color: white;
+}
+
+.container{
+    width: 60%;
+    margin: 10px;
+}
+
+
+.main-header{
+    background-color: #fff;
+    
+    padding: auto;
+    text-align: left;
+    margin-left: -500px;
+    border: auto solid #fff;
+    /*text-align: center;*/
+}
+.text-header{
+    margin: auto;
+    width: 600px;
+}
+
+.img{
+    width: 200px;
+    border-radius: 100px;
+    }
+
+.footer{
+    color: #000;
+}
