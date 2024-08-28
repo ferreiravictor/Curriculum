@@ -1,9 +1,14 @@
+@charset "UTF-8";
+
 body{
+    text-align: justify;
     font-family: Arial, sans-serif;
     line-height:  normal;
     margin:  5px;
     padding: 0%;
     background-color: white;
+    width: 100%;
+    height: 100%;
 }
 
 .container{
@@ -13,24 +18,79 @@ body{
 
 
 .main-header{
-    background-color: #fff;
-    
     padding: auto;
-    text-align: left;
+    text-align: justify;
     margin-left: -500px;
     border: auto solid #fff;
     /*text-align: center;*/
 }
+
 .text-header{
+    text-align: justify;
     margin: auto;
     width: 600px;
 }
 
 .img{
     width: 200px;
-    border-radius: 100px;
+    border-radius: 0 0 50% 0;
     }
 
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    right: 0%;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+    margin: 2px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+nav#menu li:hover{
+    background-color: #000;
+}
+
+
+div#interface{
+    width: 1800px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;    
+}
+
+
+/*  ---alterações na foto---
+header#intro img#icone{
+    position: absolute;
+    left: 780px ;
+    top: 80px;
+}
+*/ 
+
+header#cabeçalho{
+    border-bottom: 5px grey solid;
+    background: url(vf.png) no-repeat 200%;
+    background-position: right ;
+    background-size: auto;
+    position: relative;
+}
+
+
 .footer{
+    text-align: center;
     color: #000;
+    background-color: black;
 }
