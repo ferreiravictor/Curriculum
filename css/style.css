@@ -80,13 +80,13 @@ header#intro img#icone{
 }
 */ 
 
-header#cabeçalho{
+header#cabecalho { /* Alterando para corresponder ao novo ID */
     border-bottom: 5px grey solid;
-    background: url(vf.png) no-repeat 200%;
-    background-position: right ;
+    background: url('vf.png') no-repeat right; /* Ajustando para background-position */
     background-size: auto;
     position: relative;
-}
+  }
+  
 
 
 .footer{
